@@ -1,0 +1,32 @@
+{
+  "name": "tree-gateway-migration",
+  "version": "1.0.0",
+  "description": "Migration tool for Tree Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "fs-extra": "^5.0.0",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.5",
+    "yamljs": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leanty/tree-gateway-migration"
+  },
+  "bin": {
+    "treeGatewayMigration": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Leanty/tree-gateway-migration/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "engineStrict": true
+}
