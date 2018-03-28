@@ -116,5 +116,5 @@ function migrateApiData(api, from, to) {
                                 'proxy.parseReqBody', 'proxy.parseCookies',
                                 'proxy.interceptor');
     }
-    return api
+    return api;
 }
