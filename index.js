@@ -92,6 +92,7 @@ function migrateGatewayData(gateway, from, to) {
         }
         gateway = _.omit(gateway, 'statsConfig', 'monitor', 'disableStats');
     }
+    return gateway;
 }
 
 function migrateApiData(api, from, to) {

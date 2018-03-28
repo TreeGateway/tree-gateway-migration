@@ -1,6 +1,6 @@
 {
   "name": "tree-gateway-migration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Migration tool for Tree Gateway",
   "main": "index.js",
   "scripts": {
